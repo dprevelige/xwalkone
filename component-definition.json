@@ -47,7 +47,10 @@
             "xwalk": {
               "page": {
                 "resourceType": "testing/components/tasklist",
-                "template": {}
+                "template": {
+                  "name": "TaskList",
+                  "model": "tasklist"
+                }
               }
             }
           }
