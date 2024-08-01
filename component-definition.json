@@ -41,6 +41,18 @@
           }
         },
         {
+          "title": "Task List",
+          "id": "tasklist",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "testing/components/tasklist",
+                "template": {}
+              }
+            }
+          }
+        },        
+        {
           "title": "Button",
           "id": "button",
           "plugins": {

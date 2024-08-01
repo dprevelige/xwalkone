@@ -64,6 +64,34 @@
     ]
   },
   {
+    "id": "tasklist",
+    "fields": [
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "tasktype",
+        "label": "Task Type",
+        "options": [
+          {
+            "name": "Type One",
+            "value": "t1"
+          },
+          {
+            "name": "Type Two",
+            "value": "t2"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "value": "My Tasks",
+        "label": "Title"
+      }
+    ]
+  },  
+  {
     "id": "button",
     "fields": [
       {
